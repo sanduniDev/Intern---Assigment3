@@ -1,0 +1,153 @@
+/* styles.css */
+/* AddBookForm styles */
+/* styles.css */
+.add-book-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-book-form-container input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .add-book-form-container button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #d81111;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-book-form-container button:hover {
+    background-color: #0ee327;
+  }
+  
+  .add-book-form-container button:focus {
+    outline: none;
+  }
+  
+  /* Additional styles to make the form responsive on smaller screens */
+  @media screen and (max-width: 500px) {
+    .add-book-form-container {
+      max-width: 100%;
+      border-radius: 0;
+    }
+  
+    .add-book-form-container input {
+      font-size: 14px;
+    }
+  }
+  
+  
+  /* BookList styles */
+ /* styles.css */
+/* styles.css */
+.book-list-container {
+    max-width: 600px;
+    margin: 20px auto; /* Add 20px margin on the top and bottom, and auto for left and right to center the container */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-list-container p {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .book-list-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .book-list-container li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .book-list-container li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Additional styles to make the list responsive on smaller screens */
+  @media screen and (max-width: 500px) {
+    .book-list-container {
+      max-width: 100%;
+      border-radius: 0;
+    }
+  
+    .book-list-container li {
+      font-size: 14px;
+    }
+  }
+  /* DeleteBookForm.css */
+.delete-book-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .delete-book-input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .delete-book-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .delete-book-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .delete-book-btn:focus {
+    outline: none;
+  }
+  
+  /* Additional styles to make the form responsive on smaller screens */
+  @media screen and (max-width: 500px) {
+    .delete-book-form-container {
+      max-width: 100%;
+      border-radius: 0;
+    }
+  
+    .delete-book-input {
+      font-size: 14px;
+    }
+  }
+  
